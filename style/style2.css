@@ -1,0 +1,57 @@
+header{
+    color: red;
+    background-color: darkkhaki;
+    font-family: "Berlin Sans FB";
+    letter-spacing: 0.2cm;
+}
+
+nav{
+    float: left;
+    padding: 20px;
+    margin: 3px;
+
+}
+
+li{
+    float: left;
+}
+
+nav ul{
+    list-style-type: none;
+    overflow: visible;
+}
+
+nav li a{
+    display: block;
+    padding: 10px;
+    background-color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+}
+li a:hover{
+    background-color: black;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: gold;
+    width: 100%;
+    text-align: center;
+}
+
+main section{
+    border-left: 6px solid gold;
+    background-color: darkkhaki;
+    border-radius: 60px;
+    padding: 2%;
+    width: 30%;
+    margin: 30px;
+}
+
+#teine{
+    position: absolute;
+    left: 550px;
+    top: 120px;
+}
